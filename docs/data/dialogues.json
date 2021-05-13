@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "name": "Work Issues Chat",
+    "icon": "faBriefcase"
+  },
+  {
+    "id": 2,
+    "name": "Сommunication Chat",
+    "icon": "faPaperPlane"
+  }
+]

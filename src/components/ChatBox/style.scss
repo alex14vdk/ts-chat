@@ -1,0 +1,31 @@
+@import "../Chat/style";
+
+.chat__box {
+  height: $ChatBox-Height;
+  overflow: auto;
+
+  &--blured {
+    > * {
+      transition: linear all .1s;
+      filter: blur(1.5px) grayscale(0.7) opacity(0.3);
+    }
+  }
+
+  //scrollbar styles
+  $scroll-width: 5px;
+
+  &::-webkit-scrollbar {
+    width: $scroll-width;
+  }
+
+  &::-webkit-scrollbar-track {
+    width: $scroll-width;
+    background: #e2e2e2;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    width: $scroll-width;
+    background-color: #c3c3c3;
+  }
+}
+

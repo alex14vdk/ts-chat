@@ -1,0 +1,55 @@
+@import "../Chat/style";
+
+.dialogue-list {
+  position: absolute;
+  z-index: 1;
+  transition: linear all .2s;
+  height: $ChatBox-Height;
+  width: $chat-width-min;
+  top: $ChatNav-Height;
+  left: -$chat-width-min;
+  visibility: hidden;
+
+  &__list-group {
+    max-height: 50%;
+    overflow: auto;
+    $scroll-width: 5px;
+
+    &::-webkit-scrollbar {
+      width: $scroll-width;
+    }
+
+    &::-webkit-scrollbar-track {
+      width: $scroll-width;
+      background: #757575;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      width: $scroll-width;
+      background-color: #c3c3c3;
+    }
+  }
+
+  &__item.list-group-item {
+    transition: linear all .1s;
+    background-color: #343a40;
+    border-color: black;
+    border-left: 0;
+    border-right: 0;
+    cursor: pointer;
+    user-select: none;
+
+    &:hover {
+      background-color: #26282b;
+    }
+  }
+
+  &__item--active.list-group-item {
+    background-color: black;
+  }
+}
+
+.dialogue-list.dialogue-list--open {
+  left: 0;
+  visibility: visible;
+}

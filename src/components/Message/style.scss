@@ -1,0 +1,57 @@
+.message {
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+  cursor: pointer;
+
+  &:after {
+    display: block;
+    clear: both;
+    content: "";
+  }
+
+  &__block {
+    max-width: 90%;
+    float: left;
+  }
+
+  &__text {
+    background-color: #f3f3f3;
+    text-align: left;
+    overflow: hidden;
+    word-wrap: break-word;
+    transition: linear all .1s;
+  }
+
+  &__date {
+    line-height: 1;
+  }
+
+  &__author {
+    margin-right: 10px;
+    color: black;
+    font-weight: 700;
+  }
+}
+
+.message--my {
+  .message__block {
+    float: right;
+    text-align: right;
+  }
+
+  .message__text {
+    background-color: #007bff;
+    color: white;
+  }
+
+  .message__author {
+    display: none;
+  }
+}
+
+.message--edited {
+  .message__text {
+    background-color: #0054ae;
+    transform: translateX(-10px);
+  }
+}

@@ -1,0 +1,13 @@
+.navbar-chat__edit-panel {
+  display: flex;
+}
+
+.edit-message {
+  &__btn.btn {
+    border-radius: 100%;
+  }
+
+  &__type-name {
+    font-size: 0.8rem;
+  }
+}

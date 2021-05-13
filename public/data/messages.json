@@ -1,0 +1,58 @@
+[
+  {
+    "author": "Alex",
+    "date": 1618353671108,
+    "id": 1618353671108,
+    "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto dolore, dolores ducimus esse explicabo nam possimus repellendus! Corporis distinctio harum molestiae necessitatibus!",
+    "type": 1
+  },
+  {
+    "author": "Alex",
+    "date": 1618353698876,
+    "id": 1618353698876,
+    "text": "Architecto dolore, dolores",
+    "type": 1
+  },
+  {
+    "author": "John",
+    "date": 1618353732607,
+    "id": 1618353732607,
+    "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores beatae delectus excepturi porro?",
+    "type": 1
+  },
+  {
+    "author": "Sam",
+    "date": 1618353698875,
+    "id": 1618353698875,
+    "text": "Asperiores beatae delectus. Architecto dolore, dolores",
+    "type": 2
+  },
+  {
+    "author": "John",
+    "date": 1618353732606,
+    "id": 1618353732606,
+    "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores beatae delectus excepturi porro?",
+    "type": 2
+  },
+  {
+    "author": "Alex",
+    "date": 1618389308538,
+    "id": 1618389308538,
+    "text": "Aperiam eligendi fugit inventore nam neque nesciunt officiis, provident quia quo quos totam voluptatibus.",
+    "type": 1
+  },
+  {
+    "author": "Sam",
+    "date": 1618389308548,
+    "id": 1618389308548,
+    "text": "Sit amet, consectetur adipisicing elit. Ab accusantium, ad est expedita fuga inventore modi odio perferendis porro possimus soluta tempore tenetur vitae!",
+    "type": 1
+  },
+  {
+    "author": "Alex",
+    "date": 1618389319548,
+    "id": 1618389319548,
+    "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad beatae culpa dignissimos eveniet exercitationem harum labore, modi necessitatibus nemo neque nobis officiis omnis porro quas ratione voluptas.",
+    "type": 1
+  }
+]

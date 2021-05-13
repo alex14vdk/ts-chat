@@ -1,0 +1,9 @@
+@import "../Chat/style";
+
+.chat__form {
+  width: 100%;
+
+  input {
+    height: $ChatForm-Height;
+  }
+}

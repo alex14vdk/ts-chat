@@ -1,0 +1,38 @@
+.chat-wrapper {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  position: relative;
+
+  &:before {
+    content: "";
+    background: url('./files/bg-chat.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    opacity: 0.5;
+  }
+}
+
+$chat-width: 600px;
+$chat-width-min: 300px;
+
+.chat {
+  height: 100vh;
+  max-height: 800px;
+  min-width: $chat-width-min;
+  max-width: $chat-width;
+  flex-basis: $chat-width;
+  margin: 0 auto;
+  position: relative;
+}
+
+$ChatNav-Height: 56px;
+$ChatForm-Height: 48px;
+$ChatBox-Height: calc(100% - #{$ChatNav-Height} - #{$ChatForm-Height})

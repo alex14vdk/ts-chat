@@ -1,0 +1,23 @@
+@import "../Chat/style";
+
+.chat__nav {
+  margin: 0 auto;
+  width: 100%;
+  overflow: hidden;
+  height: $ChatNav-Height;
+}
+
+.navbar-chat {
+  .navbar-chat__toggler.navbar-toggler {
+    border-color: rgba(255, 255, 255, 1);
+  }
+
+  .navbar-chat__name {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 0;
+    margin: 0;
+  }
+
+}
